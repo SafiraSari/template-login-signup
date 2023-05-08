@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-image: url("white-particle-lines-futuristic-gradient-background.jpg");
+}
+
+div {
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    width: 170px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 1px 5px #aaaaaa;
+    background-color: #ffb3b3;
+    color: ivory;    
+}
+
+.main{
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    box-shadow: 2px 1px 5px #aaaaaa;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner{
+    padding: 5px;
+    margin: auto;
+    width: 180px;
+}
+
+.image-credits {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+}
